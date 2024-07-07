@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+header{
+    margin-top: 40px;
+    display: flex;
+}
+
+header h1{
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 50px;
+    height: 60px;
+    padding: 13px;
+    background-color: #057AFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 100px;
+}
+.but button{
+    color: #394E6A;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#but2{
+    display: none;
+}
+.but{
+   
+    margin-top: 25px;
+    gap: 50px;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+header ul{
+    margin-top: 25px;
+    margin-left: 350px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 50px;
+}
+header ul a{
+    transition: 1s all ease;
+    color: #394E6A;
+    text-decoration: none;
+}
+header a:hover{
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    background-color: #394E6A;
+    border-radius: 10px;
+    transition: 1s all ease;
+    color: white;
+}
+.main1{
+    display: flex;
+}
+.m1 img{
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+}
+.m2 h1{
+    margin-left: 40px;
+    margin-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m2 h3{
+    color: #394E6A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.m2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.m2 p{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m2 select{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 170px;
+    height: 30px;
+    margin-left: 40px;
+}
+.m2 button{
+    color: white;
+    background-color: #057AFF;
+    border: 1px solid #057AFF;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 35px;
+    width: 80px;
+}
+
+.load{
+    margin-top: 150px;
+    width: 350px;
+    margin-left: 370px;
+}

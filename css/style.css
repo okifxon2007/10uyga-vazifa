@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+header{
+    margin-top: 40px;
+    display: flex;
+}
+
+header h1{
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 50px;
+    height: 60px;
+    padding: 13px;
+    background-color: #057AFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 100px;
+}
+.but button{
+    color: #394E6A;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#but2{
+    display: none;
+}
+.but{
+   
+    margin-top: 25px;
+    gap: 50px;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+header ul{
+    transition: 1s all ease;
+    margin-top: 25px;
+    margin-left: 350px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 50px;
+}
+header ul a{
+    color: #394E6A;
+    text-decoration: none;
+}
+header a:hover{
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    background-color: #394E6A;
+    border-radius: 10px;
+    transition: 1s all ease;
+    color: white;
+}
+
+.block{
+    margin-top: 40px;
+    margin-left: 120px;
+    display: flex;
+    width: 980px;
+    font-size: 5px;
+}
+.bl2 img{
+    margin-left: 180px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.bl1 h1{
+    color:  #394E6A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.bl1 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color:  #394E6A;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.bl1 button{
+    border-radius: 10px;
+    border: 2px solid  #057AFF;
+    background-color:  #057AFF;
+    color: white;
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+
+}
